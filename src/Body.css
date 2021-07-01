@@ -5,8 +5,8 @@
     overflow-y: overlay;
     flex: 0.8;
     color: white;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
-    background-color: rgb(91, 87, 115);
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+    overflow-y: overlay;
 }
 
 .body::-webkit-scrollbar {
@@ -42,7 +42,11 @@
 .body__songs {
     z-index: 1;
     margin: 20px -30px;
-  }
+}
+
+.body__info {
+    flex: 1;
+}
 
 .body__infoText > h2{
     font-size: 48px;
